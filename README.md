@@ -35,7 +35,7 @@
 > **"음식 사진 촬영만으로 사용자의 개인별 알레르기 유발 요인을 즉시 탐지"**
 - **Role**: 객체 인식(Object Detection) 모델 구현 및 실시간 이미지 처리 백엔드 설계
 - **Impact**: 식사 전 위험 요소를 사전에 차단하여 식품 알레르기 환자의 안전한 식생활 보조
-- **Tech**: `Python`, `Computer Vision`, `FastAPI`, `PostgreSQL`
+- **Tech** :`Computer Vision`,`Next.js`,`Supabase`
 
 ### 🎙️ **Personalized Voice Model (TTS/STT Pipeline)**
 > **"GPT-SoVITS를 활용한 고품질 개인화 음성 모델 구축 및 서비스화"**
@@ -49,6 +49,6 @@
 
 *   **🧠 Second Brain**: Obsidian과 Notion을 활용하여 학습한 기술 부채를 체계적으로 정리합니다. 매일 아침 자동화 파이프라인을 통해 최신 AI 트렌드를 모니터링합니다.
 *   **🛠 Problem Solver**: 자율 주행 AI 에이전트 프레임워크를 활용해 반복 업무를 자동화하고 생산성을 높이는 방법을 연구합니다.
-*   **🤝 Collaboration**: 팀 프로젝트(**3H1G**)를 통해 코드 리뷰와 아키텍처 설계의 중요성을 경험했으며, 동료와의 소통을 지향합니다.
+*   **🤝 Collaboration**: 팀 프로젝트를 통해 코드 리뷰와 아키텍처 설계의 중요성을 경험했으며, 동료와의 소통을 지향합니다.
 
 ---
