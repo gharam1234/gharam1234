@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=AI%20&%20Web%20Engineer&fontSize=70&animation=fadeIn" />
 </p>
 
-# 👋 안녕하세요, 김가람입니다!
+# 👋 AI Web Engineer 김가람입니다!
 
 > **"웹 부트캠프에서 다진 탄탄한 풀스택 구현 능력과 AI 부트캠프에서 익힌 모델링 역량을 결합하여, 실질적인 가치를 창출하는 AI 서비스를 만듭니다."**
 
