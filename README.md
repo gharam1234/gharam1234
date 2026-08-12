@@ -1,54 +1,91 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=AI%20&%20Web%20Engineer&fontSize=70&animation=fadeIn" />
-</p>
+# 김가람
 
-# 👋 AI Web Engineer 김가람입니다!
+### Frontend-based AI Web Service Developer
 
-> **"웹 부트캠프에서 다진 탄탄한 풀스택 구현 능력과 AI 부트캠프에서 익힌 모델링 역량을 결합하여, 실질적인 가치를 창출하는 AI 서비스를 만듭니다."**
+사용자의 문제를 웹 인터페이스, 데이터, AI 기능으로 연결합니다.
 
-저는 웹 서비스의 전체 생명 주기(Full-cycle)를 이해하고, 그 위에 고도화된 AI 엔진을 얹어 사용자에게 더 편리한 경험을 제공하는 것에 집중합니다. 단순히 기술을 배우는 데 그치지 않고, 복잡한 문제를 구조화하고 자동화하여 해결하는 과정에서 즐거움을 느끼는 개발자입니다.
+새로운 기술을 나열하기보다 실제 사용 흐름에서 발생하는 문제를 찾고, 선택의 근거와 결과가 남는 서비스를 만드는 데 집중합니다.
 
----
-
-## 🛠 Tech Stack
-
-### 🌐 Web & Infra
-![TypeScript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-
-### 🤖 AI & Data Science
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+[포트폴리오](https://portfolio-gharams-projects.vercel.app) · [이메일](mailto:gharam1234@gmail.com) · [GitHub](https://github.com/gharam1234)
 
 ---
 
-## 📂 Key Projects
+## Featured Projects
 
-### 🥗 **Safe Meals: AI 기반 식단 알레르기 탐지 서비스**
-> **"음식 사진 촬영만으로 사용자의 개인별 알레르기 유발 요인을 즉시 탐지"**
-- **Role**: 객체 인식(Object Detection) 모델 구현 및 실시간 이미지 처리 백엔드 설계
-- **Impact**: 식사 전 위험 요소를 사전에 차단하여 식품 알레르기 환자의 안전한 식생활 보조
-- **Tech** :`Computer Vision`,`Next.js`,`Supabase`
+### [ApplyFlow](https://github.com/gharam1234/applyflow)
 
-### 🎙️ **Personalized Voice Model (TTS/STT Pipeline)**
-> **"GPT-SoVITS를 활용한 고품질 개인화 음성 모델 구축 및 서비스화"**
-- **Achievement**: 모델 추론 속도 최적화 및 안정적인 API 서빙 환경 구축
-- **Infrastructure**: 로컬 환경과 외부망을 연결하는 효율적인 파이프라인 설계
-- **Tech**: `Python`, `GPT-SoVITS`, `Cloudflare`
+신입 IT 재택·하이브리드 채용공고를 여러 출처에서 수집하고, 지원 가능 여부를 판단 근거와 함께 보여주는 웹 서비스입니다.
+
+- **담당**: 개인 프로젝트 — 기획, 수집기, 데이터 정규화, 백엔드, UI 전 과정
+- **문제 해결**: 페이지 공통 문구 때문에 발생하던 재택 공고 오탐을 공고별 근거 검증 방식으로 개선
+- **결과**: 11개 외부 출처 연동, 38개 자동 테스트 구성
+- **기술**: Python, FastAPI, Pydantic, SQLite, httpx, Pytest
+
+[서비스 보기](https://applyflow-sand-seven.vercel.app) · [코드 보기](https://github.com/gharam1234/applyflow)
+
+### [Synthetix RAG Portfolio](https://github.com/gharam1234/portfolio)
+
+포트폴리오 문서를 검색해 프로젝트의 역할과 기술적 판단을 근거와 함께 답변하는 RAG 지식지원 서비스입니다.
+
+- **담당**: 개인 프로젝트 — RAG 파이프라인, 관리자 기능, 프론트엔드
+- **핵심 구현**: 문서 분할 → Gemini 임베딩 → Pinecone 검색 → 근거 기반 답변
+- **검증**: 근거가 부족한 질문 안내, 검색 평가 데이터셋, 관리자 재색인과 권한 검사
+- **기술**: Next.js, TypeScript, Gemini, Pinecone, Firebase
+
+[서비스 보기](https://portfolio-gharams-projects.vercel.app) · [코드 보기](https://github.com/gharam1234/portfolio)
+
+### [Safety Vision AI](https://github.com/gharam1234/vision-ai)
+
+실시간 영상에서 작업자의 위험구역 침입과 안전 관련 자세를 감지하는 산업안전 관제 시스템입니다.
+
+- **핵심 구현**: YOLO 객체 탐지, ByteTrack 추적, MediaPipe 자세 분석, 위험구역 판정
+- **기술적 판단**: 한 점의 위치만 보지 않고 작업자 영역과 위험구역의 관계를 이용해 판정 로직을 구성
+- **검증**: 침입·제스처·쓰러짐 판정 테스트 31개 구성
+- **기술**: Python, YOLO, MediaPipe, ByteTrack, OpenCV, WebSocket, REST API
+
+[코드와 실행 방법 보기](https://github.com/gharam1234/vision-ai)
 
 ---
 
-## 🧠 Learning & Philosophy
+## Team Projects
 
-*   **🧠 Second Brain**: Obsidian과 Notion을 활용하여 학습한 기술 부채를 체계적으로 정리합니다. 매일 아침 자동화 파이프라인을 통해 최신 AI 트렌드를 모니터링합니다.
-*   **🛠 Problem Solver**: 자율 주행 AI 에이전트 프레임워크를 활용해 반복 업무를 자동화하고 생산성을 높이는 방법을 연구합니다.
-*   **🤝 Collaboration**: 팀 프로젝트를 통해 코드 리뷰와 아키텍처 설계의 중요성을 경험했으며, 동료와의 소통을 지향합니다.
+### [SafeMeals](https://github.com/hanck1324-ship-it/code-camp_SAFE_Meals)
+
+알레르기와 식이 제한 정보를 관리하고, 메뉴 스캔 결과를 안전 단계로 안내하는 모바일 우선 서비스입니다.
+
+- 메뉴 스캔부터 AI 분석 결과까지 이어지는 사용자 흐름과 결과 화면 구현
+- 다국어·모바일 환경과 예외 상황을 고려한 UI 구성
+- **기술**: Next.js, TypeScript, Gemini, OCR, Supabase
+
+### [교통봇](https://github.com/seohyeonmun/first-project)
+
+호출어 감지, 음성 인식, 버스 정보 조회, 음성 합성을 연결한 대중교통 안내 서비스입니다.
+
+- GPT-SoVITS 기반 TTS와 API 서버 구성
+- 모델 상주 방식으로 TTS 응답을 약 20초에서 1~3초 수준으로 개선
+- **기술**: Python, FastAPI, Whisper, GPT-SoVITS, BIS Open API
+
+[데모 영상](https://youtu.be/wwp4TqpGx4g)
 
 ---
+
+## What I Work With
+
+- **Frontend**: React, Next.js, TypeScript, JavaScript, Tailwind CSS
+- **Backend & Data**: FastAPI, Supabase, Firebase, SQLite, REST API
+- **AI**: Gemini, RAG, Pinecone, YOLO, MediaPipe, OpenCV, Whisper
+- **Collaboration & Quality**: Git, GitHub, Feature Branch, Pull Request, Pytest
+
+## How I Work
+
+1. 사용자가 실제로 겪는 문제와 실패 지점을 먼저 정의합니다.
+2. 정확도, 응답속도, 복잡도와 운영 환경을 비교해 구현 방식을 선택합니다.
+3. 수치, 테스트, 재현 가능한 문서로 개선 결과를 확인합니다.
+4. 역할과 선택의 근거가 팀에 남도록 코드와 문서를 함께 정리합니다.
+
+---
+
+### Contact
+
+- **Email**: [gharam1234@gmail.com](mailto:gharam1234@gmail.com)
+- **Portfolio**: [portfolio-gharams-projects.vercel.app](https://portfolio-gharams-projects.vercel.app)
